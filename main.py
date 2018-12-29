@@ -82,12 +82,15 @@ def processRequest(req):
         output += 'Sadness: %.5f, ' % emotionProbabilities.sadness
         output += 'Anger: %.5f, ' % emotionProbabilities.anger
         output += 'Fear: %.5f' % emotionProbabilities.fear
+        output = "Would you like to analyse another folder?"
         wks.update_cell(row, 1, file_name)
         wks.update_cell(row, 2, '%0.5f' % emotionProbabilities.neutrality)
         wks.update_cell(row, 3, '%0.5f' % emotionProbabilities.happiness)
         wks.update_cell(row, 4, '%0.5f' % emotionProbabilities.sadness)
         wks.update_cell(row, 5, '%0.5f' % emotionProbabilities.anger)
         wks.update_cell(row, 6, '%0.5f' % emotionProbabilities.fear)
+        
+        
     else:
         output += "Not enough sonorancy to determine emotions"
     

@@ -4,10 +4,10 @@ This project allows you pull data from queries received by Dialogflow, and execu
 
 
 # Demonstration
-Batch Analysis Workflow
+### Batch Analysis Workflow
 ![](Batch.gif)
 
-Live Analysis Workflow
+### Live Analysis Workflow
 ![](Batch.gif)
 ## Important Note
 

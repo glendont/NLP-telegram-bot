@@ -2,6 +2,11 @@
 
 This project allows you pull data from queries received by Dialogflow, and execute the Python scripts needed to process those data by deploying this project on Heroku.
 
+
+#Demonstration
+![](Live.gif)
+
+![](Batch.gif)
 ## Important Note
 
 Keep up the practise of commenting and documenting as much as possible for 2 reasons:

@@ -1,4 +1,4 @@
-# Connecting Dialogflow with Python
+# Emotion Detection Through Speech Processing
 
 This project allows you pull data from queries received by Dialogflow, and execute the Python scripts needed to process those data by deploying this project on Heroku.
 

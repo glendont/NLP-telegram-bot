@@ -4,7 +4,11 @@ This project allows you pull data from queries received by Dialogflow, and execu
 
 
 # Demonstration
-![](Live.gif) ![](Batch.gif)
+Batch Analysis Workflow
+![](Batch.gif)
+
+Live Analysis Workflow
+![](Batch.gif)
 ## Important Note
 
 Keep up the practise of commenting and documenting as much as possible for 2 reasons:
